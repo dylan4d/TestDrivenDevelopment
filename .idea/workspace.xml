@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5f9a097-3d27-4afa-a848-0da63b532283" name="Changes" comment="Second Constructor Complete with test to ensure correct value on given input int[24]">
+    <list default="true" id="d5f9a097-3d27-4afa-a848-0da63b532283" name="Changes" comment="improved naming across files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Colour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ColourTest.java" afterDir="false" />
@@ -60,12 +60,12 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ColourTest.no_invalid_constructor">
-    <configuration name="ColourTest.combined_constructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ColourTest.colours_can_be_compared">
+    <configuration name="ColourTest.colours_can_be_compared" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopment" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ColourTest" />
-      <option name="METHOD_NAME" value="combined_constructor" />
+      <option name="METHOD_NAME" value="colours_can_be_compared" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,11 +81,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ColourTest.no_values_over_one" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ColourTest.not_binary_array" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopment" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ColourTest" />
-      <option name="METHOD_NAME" value="no_values_over_one" />
+      <option name="METHOD_NAME" value="not_binary_array" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ColourTest.colours_can_be_compared" />
+        <item itemvalue="JUnit.ColourTest.not_binary_array" />
         <item itemvalue="JUnit.ColourTest.no_invalid_constructor" />
         <item itemvalue="JUnit.ColourTest.rgb_values_equal" />
         <item itemvalue="JUnit.ColourTest.rgb_vals_equal" />
-        <item itemvalue="JUnit.ColourTest.combined_constructor" />
-        <item itemvalue="JUnit.ColourTest.no_values_over_one" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +129,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667407992347</updated>
-      <workItem from="1667407993659" duration="11640000" />
+      <workItem from="1667407993659" duration="13393000" />
     </task>
     <task id="LOCAL-00001" summary="Original Commit, including first constructor test.">
       <created>1667408493527</created>
@@ -152,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667418303558</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="improved naming across files">
+      <created>1667423715651</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667423715651</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +181,7 @@
     <MESSAGE value="Added constructor test with no values over 1" />
     <MESSAGE value="Second constructor with rgb array and test." />
     <MESSAGE value="Second Constructor Complete with test to ensure correct value on given input int[24]" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second Constructor Complete with test to ensure correct value on given input int[24]" />
+    <MESSAGE value="improved naming across files" />
+    <option name="LAST_COMMIT_MESSAGE" value="improved naming across files" />
   </component>
 </project>

@@ -26,6 +26,12 @@ public class Colour {
             throw new IllegalArgumentException("Incorrect Input");
         }
 
+        for (int i: rgb) {
+            if (i != 0 && i != 1){
+                throw new IllegalArgumentException("Must be binary");
+            }
+        }
+
         this.rgb = rgb;
 
         this.convert_blue = Arrays.copyOfRange(rgb, 0, 8);
@@ -53,7 +59,7 @@ public class Colour {
         this.green = Integer.parseInt(toParseGreen.toString(), 2);
 
         if ((this.red < 0 || this.red > 255) || (this.green < 0 || this.green > 255) || (this.blue < 0 || this.blue > 255)){
-            throw new IllegalArgumentException();
+            throw new IllegalArgumentException("Decimal must be between 0 and 255");
         }
 
     }
