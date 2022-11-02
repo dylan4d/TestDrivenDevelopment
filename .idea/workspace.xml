@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5f9a097-3d27-4afa-a848-0da63b532283" name="Changes" comment="test made for equals comparison">
+    <list default="true" id="d5f9a097-3d27-4afa-a848-0da63b532283" name="Changes" comment="Created equals test, implemented equals, and implemented Math.round as test failed due to floating point.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Colour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ColourTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,24 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ColourTest.colours_can_be_compared">
+  <component name="RunManager" selected="JUnit.All in TestDrivenDevelopment">
+    <configuration name="All in TestDrivenDevelopment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestDrivenDevelopment" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColourTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="TestDrivenDevelopment" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ColourTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ColourTest.colours_can_be_compared" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopment" />
       <option name="PACKAGE_NAME" value="" />
@@ -71,11 +87,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ColourTest.no_invalid_constructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ColourTest.convert_from_int_array_to_correct_int" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopment" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ColourTest" />
-      <option name="METHOD_NAME" value="no_invalid_constructor" />
+      <option name="METHOD_NAME" value="convert_from_int_array_to_correct_int" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,21 +107,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ColourTest.rgb_vals_equal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ColourTest.too_long_array" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopment" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ColourTest" />
-      <option name="METHOD_NAME" value="rgb_vals_equal" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ColourTest.rgb_values_equal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestDrivenDevelopment" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ColourTest" />
-      <option name="METHOD_NAME" value="rgb_values_equal" />
+      <option name="METHOD_NAME" value="too_long_array" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in TestDrivenDevelopment" />
         <item itemvalue="JUnit.ColourTest.colours_can_be_compared" />
+        <item itemvalue="JUnit.ColourTest.convert_from_int_array_to_correct_int" />
         <item itemvalue="JUnit.ColourTest.not_binary_array" />
-        <item itemvalue="JUnit.ColourTest.no_invalid_constructor" />
-        <item itemvalue="JUnit.ColourTest.rgb_values_equal" />
-        <item itemvalue="JUnit.ColourTest.rgb_vals_equal" />
+        <item itemvalue="JUnit.ColourTest.too_long_array" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +135,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667407992347</updated>
-      <workItem from="1667407993659" duration="14361000" />
+      <workItem from="1667407993659" duration="14663000" />
     </task>
     <task id="LOCAL-00001" summary="Original Commit, including first constructor test.">
       <created>1667408493527</created>
@@ -166,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667425384506</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Created equals test, implemented equals, and implemented Math.round as test failed due to floating point.">
+      <created>1667426404023</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667426404023</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +203,7 @@
     <MESSAGE value="Second Constructor Complete with test to ensure correct value on given input int[24]" />
     <MESSAGE value="improved naming across files" />
     <MESSAGE value="test made for equals comparison" />
-    <option name="LAST_COMMIT_MESSAGE" value="test made for equals comparison" />
+    <MESSAGE value="Created equals test, implemented equals, and implemented Math.round as test failed due to floating point." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created equals test, implemented equals, and implemented Math.round as test failed due to floating point." />
   </component>
 </project>
