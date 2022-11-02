@@ -47,9 +47,6 @@ public class ColourTest {
 
         int[] raspberry2_binary = {0,1,0,0,1,0,0,1,0,1,0,1,0,0,1,1,1,1,1,1,1,1,1,1};
         Colour raspberry2 = new Colour(raspberry2_binary);
-        System.out.println(raspberry2.getRed());
-        System.out.println(raspberry2.getGreen());
-        System.out.println(raspberry2.getBlue());
 
         Assert.assertEquals(raspberry1, raspberry2);
     }

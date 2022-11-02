@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
+import static java.lang.Math.round;
+
 public class Colour {
     double red;
     double green;
@@ -11,12 +13,12 @@ public class Colour {
     int[] convert_blue;
 
     public Colour(double r, double g, double b) {
-        this.red = r * 255;
-        this.green = g * 255;
-        this.blue = b * 255;
+        this.red = Math.round(r * 255);
+        this.green = Math.round(g * 255);
+        this.blue = Math.round(b * 255);
 
-        if ((r < 0 || r > 1) || (g < 0 || g > 1) || (b < 0 || b > 1)){
-            throw new IllegalArgumentException("Incorrect Input");
+        if ((this.red < 0 || this.red > 255) || (this.green < 0 || this.green > 255) || (this.blue < 0 || this.blue > 255)){
+            throw new IllegalArgumentException("Decimal must be between 0 and 255");
         }
     }
 
@@ -74,5 +76,15 @@ public class Colour {
 
     public double getBlue() {
         return blue;
+    }
+    public boolean equals(Object obj) {
+        if (obj == null) return false;
+
+        if (obj instanceof Colour) {
+            Colour col1 = (Colour) obj;
+            return (col1.red == this.red && col1.green == this.green && col1.blue == this.blue);
+        }
+
+        return false;
     }
 }

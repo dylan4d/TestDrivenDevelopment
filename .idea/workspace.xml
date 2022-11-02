@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5f9a097-3d27-4afa-a848-0da63b532283" name="Changes" comment="improved naming across files">
+    <list default="true" id="d5f9a097-3d27-4afa-a848-0da63b532283" name="Changes" comment="test made for equals comparison">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Colour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ColourTest.java" afterDir="false" />
@@ -29,7 +29,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2H035j3VtClsmVfGg1wga6oYPim" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -129,7 +129,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667407992347</updated>
-      <workItem from="1667407993659" duration="13393000" />
+      <workItem from="1667407993659" duration="14361000" />
     </task>
     <task id="LOCAL-00001" summary="Original Commit, including first constructor test.">
       <created>1667408493527</created>
@@ -159,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667423715651</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test made for equals comparison">
+      <created>1667425384506</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667425384506</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +189,7 @@
     <MESSAGE value="Second constructor with rgb array and test." />
     <MESSAGE value="Second Constructor Complete with test to ensure correct value on given input int[24]" />
     <MESSAGE value="improved naming across files" />
-    <option name="LAST_COMMIT_MESSAGE" value="improved naming across files" />
+    <MESSAGE value="test made for equals comparison" />
+    <option name="LAST_COMMIT_MESSAGE" value="test made for equals comparison" />
   </component>
 </project>
