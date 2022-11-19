@@ -1,0 +1,41 @@
+commit 6e75d9cabd69e886ed100863de04ee60379c303d
+Author: dylan4d <forde.dylan@gmail.com>
+Date:   Wed Nov 2 22:06:32 2022 +0000
+
+    Refactoring changes after all tests have passed.
+
+commit d64d9d0a4e1d3a676827c1aa0ca10972a6d3fd11
+Author: dylan4d <forde.dylan@gmail.com>
+Date:   Wed Nov 2 22:00:04 2022 +0000
+
+    Created equals test, implemented equals, and implemented Math.round as test failed due to floating point.
+
+commit cff23e6d9e049d820f634a9606b34cdbfe9e7b2a
+Author: dylan4d <forde.dylan@gmail.com>
+Date:   Wed Nov 2 21:43:04 2022 +0000
+
+    test made for equals comparison
+
+commit 90a8c530141626aa8edef096079b743893c5d69a
+Author: dylan4d <forde.dylan@gmail.com>
+Date:   Wed Nov 2 21:15:15 2022 +0000
+
+    improved naming across files
+
+commit 707bfcc0287fc724bdfc0a0953f3b5ffc5e035af
+Author: dylan4d <forde.dylan@gmail.com>
+Date:   Wed Nov 2 19:45:03 2022 +0000
+
+    Second constructor with rgb array and test.
+
+commit fc8229fe4a0f9e7df5752bbcc7ddee6c37bcad1e
+Author: dylan4d <forde.dylan@gmail.com>
+Date:   Wed Nov 2 17:05:34 2022 +0000
+
+    Added constructor test with no values over 1
+
+commit d5ff205bf3bca9c053637280cb9c9e1023584031
+Author: dylan4d <forde.dylan@gmail.com>
+Date:   Wed Nov 2 17:01:33 2022 +0000
+
+    Original Commit, including first constructor test.
